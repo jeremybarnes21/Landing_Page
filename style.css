@@ -1,0 +1,160 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+/*
+div {
+    border: 1px solid #1f2937;
+}
+*/
+/*button {
+    background-color: #0d6efd;
+    color: #F9FAF8;
+}*/
+
+img {
+    width: auto;
+    height: 225px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 48px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.hero-section {
+    padding: 48px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero-primary {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+a,
+.hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb !important;
+    font-weight: lighter;
+}
+
+a {
+    margin: 8px;
+    text-decoration: none !important;
+}
+
+.hero-secondary {
+    margin-bottom: 8px;
+}
+
+.hero-image {
+    padding: 0 32px;
+}
+
+.header,
+.hero-section,
+.footer {
+    background-color: #1f2937;
+}
+
+.album-header {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight:900;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.album-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.album-card {
+    margin: 32px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.album-image {
+    height: 200px;
+    width: 200px;
+    border: 4px solid #0d6efd;
+    border-radius: 5%;
+}
+
+.album-caption {
+    text-align: center;
+    text-wrap: wrap;
+}
+
+.testimonial-section {
+    background-color: #e5e7eb;
+    padding: 32px 17.5%;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.author {
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 16px;
+}
+
+.cta-section {
+    padding: 48px 48px;
+}
+
+.cta-content{
+    background-color: #0d6efd;
+    padding: 32px 24px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #F9FAF8;
+    border-radius: 4px;
+}
+
+.cta-header {
+    font-size: 18px;
+    font-weight: 600;
+}
+.cta-subtext {
+    font-weight: lighter;
+}
+
+#bottom-signup {
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    width: 240px;
+}
+#bottom-signup:hover {
+    color: #0d6efd;
+    background-color: #F9FAF8;
+    width: 240px;
+}
+
+
+.footer {
+    color: #F9FAF8;
+    text-align: center;
+    padding: 16px;
+}
